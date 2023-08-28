@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zemoso Restaurant</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="tables-container">
+        <h2>Tables</h2>
+        <div class="filter-container">
+          <input
+            type="text"
+            placeholder="Search by table number"
+            id="searchTableInput"
+            style="width: 90%"
+          />
+        </div>
+        <div class="tables"></div>
+      </div>
+      <div class="menu-container">
+        <h2>Menu</h2>
+        <div class="filter-container">
+          <input
+            type="text"
+            placeholder="Search by item name"
+            id="searchItemInput"
+          />
+          <select id="courseTypeSelect">
+            <option value="">All Courses</option>
+            <option value="main">Main Course</option>
+            <option value="desserts">Desserts</option>
+            <option value="starters">Starters</option>
+            <option value="beverages">Beverages</option>
+          </select>
+        </div>
+        <div class="menu-items"></div>
+      </div>
+    </div>
+
+    <div id="orderDetailsModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalOrderItems" class="order-items"></div>
+      </div>
+    </div>
+    <div id="bill" class="billDetails"></div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
