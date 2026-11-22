@@ -1,33 +1,39 @@
+# Restaurant Order Management App
 
-# Restaurant App
-
-The Restaurant App is a simple web application built using HTML and JavaScript that allows waiters to manage the orders for different tables in a restaurant. It provides features to add, delete, and manage items for each table's order.
+A small browser-based application for waiters to manage orders across restaurant tables.
 
 ## Features
 
-- View a list of tables in the restaurant.
-- Select a table to view and manage its order.
-- Add items to the order for a specific table.
-- Delete items from the order for a specific table.
-- Search and filter the menu for easy item selection.
-- User-friendly interface for ease of use.
+- View the available tables.
+- Select a table and inspect its current order.
+- Add menu items to a table's order.
+- Remove items from an order.
+- Search and filter the menu.
 
-## Getting Started
+## Technology
 
-Follow these instructions to set up and run the Restaurant App on your local machine.
+- HTML, CSS, and JavaScript
+- Node.js and npm
+- Lite Server for local development
+
+## Run locally
 
 ### Prerequisites
 
-To run this application locally, you'll need the following tools:
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+- Node.js
+- npm
 
-### Installation
+### Setup
 
-1. Clone this repository to your local machine.
-2. Navigate to the directory and install project dependencies using `npm install`.
+```bash
+git clone https://github.com/gnanasai13/restaurant-app.git
+cd restaurant-app/RestaurantApp
+npm install
+npm start
+```
 
-## Usage
+The development server prints the local address in the terminal.
 
-1. Start the development server by running `npm start`.
-2. This will launch the application in your default web browser. You can access it at http://localhost:3000.
+## Project notes
+
+This is a lightweight frontend project focused on table-based order workflows and client-side interaction.
